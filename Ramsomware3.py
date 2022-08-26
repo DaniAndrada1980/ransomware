@@ -5,7 +5,7 @@ import os # Maneja a configuracion y interaccion con el Sistema Operativo.
 import webbrowser # En este caso la utilizaremos para abrir y cargar una URL utilizada en el codigo.
 import ctypes # Provee la compatibilidad con el lenguaje "C"y archivos  DLL, aqui la utilizaremos para cambiar el background del escritorio.
 import urllib.request # Usaremos para descargar una imagen y establecerla de fondo de escitorio.
-import requests # used to make get reqeust to api.ipify.org to get target machine ip addr
+import requests 
 import time # tanto time como datetime se utilizan par aportar datos de hecha y hora
 import datetime # 
 import subprocess # En este caso la utilizaremos para abrir notepad y mostrar uan nota.
